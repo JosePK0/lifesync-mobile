@@ -11,3 +11,4 @@
 | `LIFE-12` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar JwtService con firma criptográfica HMAC-SHA256 (HS256), expiración exp, emisor iss y validación de token |
 | `LIFE-13` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Crear RegisterRequest y endpoint POST /api/auth/register con validación estricta de nombre, correo y fortaleza de contraseña |
 | `LIFE-14` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Crear LoginRequest y endpoint OAuth 2.0 POST /api/oauth/token (grant_type=password) con protección contra timing attacks |
+| `LIFE-15` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar middleware JwtAuthenticate y endpoint protegido GET /api/auth/me |
