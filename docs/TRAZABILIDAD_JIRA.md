@@ -18,3 +18,4 @@
 | `LIFE-19` | Sprint 1 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Configurar navegación protegida en navigation/index.tsx separando AuthStack (Login/Register) y AppStack (MainTabs) |
 | `LIFE-20` | Sprint 1 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla LoginScreen con validación de campos, manejo de errores de red y estados de carga |
 | `LIFE-21` | Sprint 1 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla RegisterScreen con validación de contraseña segura y retroalimentación visual |
+| `LIFE-22` | Sprint 1 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Documentar contratos iniciales de autenticación OAuth2/JWT y realizar prueba integral de registro e inicio de sesión |
