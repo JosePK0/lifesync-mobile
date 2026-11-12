@@ -13,3 +13,4 @@
 | `LIFE-14` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Crear LoginRequest y endpoint OAuth 2.0 POST /api/oauth/token (grant_type=password) con protección contra timing attacks |
 | `LIFE-15` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar middleware JwtAuthenticate y endpoint protegido GET /api/auth/me |
 | `LIFE-16` | Sprint 1 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Inicializar aplicación móvil Expo con React Native, TypeScript estricto y gestor de paquetes pnpm (nodeLinker: hoisted) |
+| `LIFE-17` | Sprint 1 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar contenedor seguro secureStorage.ts usando expo-secure-store (Android Keystore / iOS Keychain) |
