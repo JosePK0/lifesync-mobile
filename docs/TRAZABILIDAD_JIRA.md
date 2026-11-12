@@ -17,3 +17,4 @@
 | `LIFE-18` | Sprint 1 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar AuthContext con restauración de sesión segura, decodificación de expiración JWT y soporte offline |
 | `LIFE-19` | Sprint 1 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Configurar navegación protegida en navigation/index.tsx separando AuthStack (Login/Register) y AppStack (MainTabs) |
 | `LIFE-20` | Sprint 1 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla LoginScreen con validación de campos, manejo de errores de red y estados de carga |
+| `LIFE-21` | Sprint 1 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla RegisterScreen con validación de contraseña segura y retroalimentación visual |
