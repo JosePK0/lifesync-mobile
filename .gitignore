@@ -1,0 +1,16 @@
+.mysql/
+node_modules/
+vendor/
+.env
+*.keystore
+*.jks
+*.aab
+*.apk
+*.ipa
+*.zip
+.DS_Store
+mobile/android/
+mobile/ios/
+firebase-push/
+*firebase-adminsdk*.json
+backend/storage/app/firebase-service-account.json
