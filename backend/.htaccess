@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Bloquear acceso directo a archivos sensibles
+    RewriteRule ^(\.env|composer\.(json|lock)|artisan|storage/.*)$ - [F,L,NC]
+
+    # Pasar cabecera Authorization (JWT Bearer) en Apache/CGI
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirigir todo el tráfico hacia public/
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L,QSA]
+</IfModule>
+
+<FilesMatch "^\.env|firebase-service-account\.json$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
