@@ -7,3 +7,4 @@
 | `LIFE-8` | Sprint 1 | Jose Antonio De Jesus Pool Ku | @JosePK0 | Configurar script start-db.sh y variables .env para MariaDB/MySQL con credenciales fuera del código fuente |
 | `LIFE-9` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar patrón Singleton en DatabaseConnection.php y registrarlo en AppServiceProvider de Laravel |
 | `LIFE-10` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Crear migración de tabla users con email único, password hash y timestamps en MySQL/MariaDB |
+| `LIFE-11` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Configurar modelo User con cast hashed (bcrypt 12 rondas) garantizando cero contraseñas en texto plano |
