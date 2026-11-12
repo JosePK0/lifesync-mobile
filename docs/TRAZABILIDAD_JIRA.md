@@ -8,3 +8,4 @@
 | `LIFE-9` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar patrón Singleton en DatabaseConnection.php y registrarlo en AppServiceProvider de Laravel |
 | `LIFE-10` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Crear migración de tabla users con email único, password hash y timestamps en MySQL/MariaDB |
 | `LIFE-11` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Configurar modelo User con cast hashed (bcrypt 12 rondas) garantizando cero contraseñas en texto plano |
+| `LIFE-12` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar JwtService con firma criptográfica HMAC-SHA256 (HS256), expiración exp, emisor iss y validación de token |
