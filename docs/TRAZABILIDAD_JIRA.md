@@ -14,3 +14,4 @@
 | `LIFE-15` | Sprint 1 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar middleware JwtAuthenticate y endpoint protegido GET /api/auth/me |
 | `LIFE-16` | Sprint 1 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Inicializar aplicación móvil Expo con React Native, TypeScript estricto y gestor de paquetes pnpm (nodeLinker: hoisted) |
 | `LIFE-17` | Sprint 1 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar contenedor seguro secureStorage.ts usando expo-secure-store (Android Keystore / iOS Keychain) |
+| `LIFE-18` | Sprint 1 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar AuthContext con restauración de sesión segura, decodificación de expiración JWT y soporte offline |
