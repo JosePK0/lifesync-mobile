@@ -26,3 +26,4 @@
 | `LIFE-27` | Sprint 2 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar CRUD completo en HealthRecordController (index, store, show, update, destroy) forzando user_id desde el token |
 | `LIFE-28` | Sprint 2 | Jose Antonio De Jesus Pool Ku | @JosePK0 | Validar sanitización de entradas en servidor frente a SQL Injection y NoSQL/Array injection mediante consultas parametrizadas |
 | `LIFE-35` | Sprint 2 | Jose Antonio De Jesus Pool Ku | @JosePK0 | Ejecutar pruebas de seguridad Anti-IDOR entre dos usuarios distintos verificando bloqueo 403 Forbidden en lectura, edición y borrado |
+| `LIFE-29` | Sprint 2 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar cliente HTTP global Axios (api.ts) con interceptor automático Authorization: Bearer y cierre de sesión en 401 |
