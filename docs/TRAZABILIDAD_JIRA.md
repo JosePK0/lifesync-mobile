@@ -23,3 +23,4 @@
 | `LIFE-24` | Sprint 2 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar modelo HealthRecord y relación 1:N con User en Eloquent ORM |
 | `LIFE-25` | Sprint 2 | Cristian Isaac Llanes Puc | @LlanesGood | Crear HealthRecordRequest con listas blancas de tipos, validación de horarios HH:MM, teléfonos y bloqueo de payloads XSS/SQLi |
 | `LIFE-26` | Sprint 2 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar HealthRecordPolicy (Anti-IDOR) verificando que record->user_id coincida estrictamente con el usuario del token JWT |
+| `LIFE-27` | Sprint 2 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar CRUD completo en HealthRecordController (index, store, show, update, destroy) forzando user_id desde el token |
