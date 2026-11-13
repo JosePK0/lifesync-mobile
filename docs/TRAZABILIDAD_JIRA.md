@@ -31,3 +31,4 @@
 | `LIFE-31` | Sprint 2 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar parser de respuestas de API (parsing.ts) con verificación de tipos en tiempo de ejecución |
 | `LIFE-32` | Sprint 2 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla HomeScreen con resumen de grupo sanguíneo, contadores por categoría médica y sección de alertas críticas |
 | `LIFE-33` | Sprint 2 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla RecordsScreen con filtros por categoría (Todos, Sangre, Alergias, Medicamentos, Contactos) y borrado con confirmación |
+| `LIFE-34` | Sprint 2 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla RecordFormScreen para creación y edición de antecedentes médicos, dosis, teléfono de contacto y hora de recordatorio |
