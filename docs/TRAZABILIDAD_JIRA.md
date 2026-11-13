@@ -29,3 +29,4 @@
 | `LIFE-29` | Sprint 2 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar cliente HTTP global Axios (api.ts) con interceptor automático Authorization: Bearer y cierre de sesión en 401 |
 | `LIFE-30` | Sprint 2 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar esquemas de validación en cliente con Zod (validation.ts) para registro, login y formularios médicos |
 | `LIFE-31` | Sprint 2 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar parser de respuestas de API (parsing.ts) con verificación de tipos en tiempo de ejecución |
+| `LIFE-32` | Sprint 2 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla HomeScreen con resumen de grupo sanguíneo, contadores por categoría médica y sección de alertas críticas |
