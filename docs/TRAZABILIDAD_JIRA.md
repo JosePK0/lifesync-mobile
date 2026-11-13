@@ -19,3 +19,4 @@
 | `LIFE-20` | Sprint 1 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla LoginScreen con validación de campos, manejo de errores de red y estados de carga |
 | `LIFE-21` | Sprint 1 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla RegisterScreen con validación de contraseña segura y retroalimentación visual |
 | `LIFE-22` | Sprint 1 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Documentar contratos iniciales de autenticación OAuth2/JWT y realizar prueba integral de registro e inicio de sesión |
+| `LIFE-23` | Sprint 2 | Cristian Isaac Llanes Puc | @LlanesGood | Crear migración de tabla health_records con enum de tipos (blood_type, allergy, medication, contact) e índice compuesto |
