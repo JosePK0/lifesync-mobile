@@ -38,3 +38,4 @@
 | `LIFE-43` | Sprint 3 | Cristian Isaac Llanes Puc | @LlanesGood | Crear migración y modelo Incident junto con endpoints GET/POST /api/incidents para rastreo GPS en la nube |
 | `LIFE-46` | Sprint 3 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar endpoints POST/GET /api/records/{record}/image con validación MIME jpg/png y almacenamiento privado por usuario |
 | `LIFE-40` | Sprint 3 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar patrón Observer en móvil: AlertCenter (sujeto), AlertObserver (interfaz) y NotificationObserver |
+| `LIFE-41` | Sprint 3 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar ReminderService con temporizador de verificación de medicamentos por hora (HH:MM) y programación diaria con expo-notifications |
