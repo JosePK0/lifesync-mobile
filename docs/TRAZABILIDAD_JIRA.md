@@ -43,3 +43,4 @@
 | `LIFE-48` | Sprint 3 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar repositorio offline-first (RecordsRepository) con caché local en SecureStore, cola de operaciones pendientes y sincronización automática con NetInfo |
 | `LIFE-39` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Integrar exportación y diálogo nativo Share en ProfileScreen para compartir historial en JSON o CSV |
 | `LIFE-44` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Implementar botón de Emergencia SOS en HomeScreen con geolocalización expo-location y degradación gradual si el GPS está denegado |
+| `LIFE-45` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla EmergencyScreen (Ficha médica de emergencia 100% funcional sin conexión y llamada rápida a contactos SOS) |
