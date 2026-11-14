@@ -45,3 +45,4 @@
 | `LIFE-44` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Implementar botón de Emergencia SOS en HomeScreen con geolocalización expo-location y degradación gradual si el GPS está denegado |
 | `LIFE-45` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla EmergencyScreen (Ficha médica de emergencia 100% funcional sin conexión y llamada rápida a contactos SOS) |
 | `LIFE-47` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla ScanScreen con expo-camera para fotografiar recetas médicas y degradación gradual a galería con expo-image-picker |
+| `LIFE-49` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla AlertsScreen con historial en tiempo real del AlertCenter y banner de estado de permisos de notificación |
