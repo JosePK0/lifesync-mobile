@@ -33,3 +33,4 @@
 | `LIFE-33` | Sprint 2 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla RecordsScreen con filtros por categoría (Todos, Sangre, Alergias, Medicamentos, Contactos) y borrado con confirmación |
 | `LIFE-34` | Sprint 2 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla RecordFormScreen para creación y edición de antecedentes médicos, dosis, teléfono de contacto y hora de recordatorio |
 | `LIFE-36` | Sprint 3 | Cristian Isaac Llanes Puc | @LlanesGood | Definir interfaz ExportStrategy en el backend para exportación polimórfica del historial médico |
+| `LIFE-37` | Sprint 3 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar JsonExportStrategy y CsvExportStrategy con cabeceras MIME y escapado seguro de campos |
