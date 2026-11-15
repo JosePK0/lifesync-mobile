@@ -55,3 +55,4 @@
 | `LIFE-56` | Sprint 4 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Integrar google-services.json (Android) y GoogleService-Info.plist (iOS) junto con pushService.ts conectado al AlertCenter |
 | `LIFE-57` | Sprint 4 | Jose Antonio De Jesus Pool Ku | @JosePK0 | Crear script de análisis estático SAST (scripts/sast.sh) con composer audit, pnpm audit --prod y escaneo de secretos expuestos |
 | `LIFE-58` | Sprint 4 | Jose Antonio De Jesus Pool Ku | @JosePK0 | Aplicar override de seguridad en pnpm-workspace.yaml y generar reporte docs/SAST_REPORT.md con 0 vulnerabilidades y 0 secretos |
+| `LIFE-59` | Sprint 4 | Jose Antonio De Jesus Pool Ku | @JosePK0 | Generar script SQL de producción (lifesync_production.sql) y desplegar API Laravel 13 en servidor de producción HTTPS (Hostinger) |
