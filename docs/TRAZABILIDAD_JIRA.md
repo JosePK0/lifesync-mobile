@@ -53,3 +53,4 @@
 | `LIFE-55` | Sprint 4 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar FcmService en Laravel con firma OAuth2 RS256 para envío de notificaciones Push vía Firebase Cloud Messaging HTTP v1 |
 | `LIFE-53` | Sprint 4 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar plugin Expo withNetworkSecurity.js para bloquear tráfico HTTP en texto plano (Network Security Config en Android y ATS en iOS) |
 | `LIFE-56` | Sprint 4 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Integrar google-services.json (Android) y GoogleService-Info.plist (iOS) junto con pushService.ts conectado al AlertCenter |
+| `LIFE-57` | Sprint 4 | Jose Antonio De Jesus Pool Ku | @JosePK0 | Crear script de análisis estático SAST (scripts/sast.sh) con composer audit, pnpm audit --prod y escaneo de secretos expuestos |
