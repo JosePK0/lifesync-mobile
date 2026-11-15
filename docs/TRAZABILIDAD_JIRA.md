@@ -52,3 +52,4 @@
 | `LIFE-54` | Sprint 4 | Cristian Isaac Llanes Puc | @LlanesGood | Crear migración device_tokens, modelo DeviceToken y controlador PushTokenController (POST/DELETE /api/devices/token y /api/push/test) |
 | `LIFE-55` | Sprint 4 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar FcmService en Laravel con firma OAuth2 RS256 para envío de notificaciones Push vía Firebase Cloud Messaging HTTP v1 |
 | `LIFE-53` | Sprint 4 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar plugin Expo withNetworkSecurity.js para bloquear tráfico HTTP en texto plano (Network Security Config en Android y ATS en iOS) |
+| `LIFE-56` | Sprint 4 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Integrar google-services.json (Android) y GoogleService-Info.plist (iOS) junto con pushService.ts conectado al AlertCenter |
