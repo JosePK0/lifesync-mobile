@@ -47,3 +47,4 @@
 | `LIFE-47` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla ScanScreen con expo-camera para fotografiar recetas médicas y degradación gradual a galería con expo-image-picker |
 | `LIFE-49` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla AlertsScreen con historial en tiempo real del AlertCenter y banner de estado de permisos de notificación |
 | `LIFE-50` | Sprint 3 | Jose Antonio De Jesus Pool Ku | @JosePK0 | Probar modo avión, encolado de creación/edición/eliminación offline y resincronización automática al recuperar conexión |
+| `LIFE-51` | Sprint 4 | Jose Antonio De Jesus Pool Ku | @JosePK0 | Crear suite de pruebas unitarias y de integración en backend (ApiSecurityTest, JwtServiceTest, ExportStrategyTest) con PHPUnit |
