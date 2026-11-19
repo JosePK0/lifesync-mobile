@@ -19,3 +19,8 @@
 | `LIFE-20` | Sprint 1 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla LoginScreen con validación de campos, manejo de errores de red y estados de carga |
 | `LIFE-21` | Sprint 1 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla RegisterScreen con validación de contraseña segura y retroalimentación visual |
 | `LIFE-22` | Sprint 1 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Documentar contratos iniciales de autenticación OAuth2/JWT y realizar prueba integral de registro e inicio de sesión |
+| `LIFE-23` | Sprint 2 | Cristian Isaac Llanes Puc | @LlanesGood | Crear migración de tabla health_records con enum de tipos (blood_type, allergy, medication, contact) e índice compuesto |
+| `LIFE-24` | Sprint 2 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar modelo HealthRecord y relación 1:N con User en Eloquent ORM |
+| `LIFE-25` | Sprint 2 | Cristian Isaac Llanes Puc | @LlanesGood | Crear HealthRecordRequest con listas blancas de tipos, validación de horarios HH:MM, teléfonos y bloqueo de payloads XSS/SQLi |
+| `LIFE-26` | Sprint 2 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar HealthRecordPolicy (Anti-IDOR) verificando que record->user_id coincida estrictamente con el usuario del token JWT |
+| `LIFE-27` | Sprint 2 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar CRUD completo en HealthRecordController (index, store, show, update, destroy) forzando user_id desde el token |
