@@ -3,13 +3,14 @@
     "name": "LifeSync",
     "slug": "lifesync-mobile",
     "scheme": "lifesync",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.lifesync.mobile",
+      "buildNumber": "6",
       "googleServicesFile": "./GoogleService-Info.plist",
       "infoPlist": {
         "NSCameraUsageDescription": "LifeSync usa la cámara para escanear tus recetas médicas.",
