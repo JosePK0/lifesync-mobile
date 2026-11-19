@@ -32,3 +32,8 @@
 | `LIFE-32` | Sprint 2 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla HomeScreen con resumen de grupo sanguíneo, contadores por categoría médica y sección de alertas críticas |
 | `LIFE-33` | Sprint 2 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla RecordsScreen con filtros por categoría (Todos, Sangre, Alergias, Medicamentos, Contactos) y borrado con confirmación |
 | `LIFE-34` | Sprint 2 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla RecordFormScreen para creación y edición de antecedentes médicos, dosis, teléfono de contacto y hora de recordatorio |
+| `LIFE-36` | Sprint 3 | Cristian Isaac Llanes Puc | @LlanesGood | Definir interfaz ExportStrategy en el backend para exportación polimórfica del historial médico |
+| `LIFE-37` | Sprint 3 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar JsonExportStrategy y CsvExportStrategy con cabeceras MIME y escapado seguro de campos |
+| `LIFE-38` | Sprint 3 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar ExportService y endpoint GET /api/records/export?format=json|csv protegido por JWT |
+| `LIFE-43` | Sprint 3 | Cristian Isaac Llanes Puc | @LlanesGood | Crear migración y modelo Incident junto con endpoints GET/POST /api/incidents para rastreo GPS en la nube |
+| `LIFE-46` | Sprint 3 | Cristian Isaac Llanes Puc | @LlanesGood | Implementar endpoints POST/GET /api/records/{record}/image con validación MIME jpg/png y almacenamiento privado por usuario |
