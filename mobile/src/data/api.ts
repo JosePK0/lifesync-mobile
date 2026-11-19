@@ -40,7 +40,10 @@ export function errorMessage(e: unknown): string {
     if (!e.response) return 'Sin conexión con el servidor. Tus datos locales siguen disponibles.';
     const d = e.response.data as { message?: string; errors?: Record<string, string[]> };
     if (d?.errors) return Object.values(d.errors)[0]?.[0] ?? 'Datos inválidos';
-    if (d?.message) return d.message;
+    if (d?.message) {
+      if (d.message.includes('Bcrypt algorithm')) return 'Credenciales inválidas o correo no registrado.';
+      return d.message;
+    }
     return `Error del servidor (${e.response.status})`;
   }
   return 'Ocurrió un error inesperado';

@@ -28,9 +28,15 @@ class AuthController extends Controller
         $email = $request->input('email', $request->input('username'));
         $user = User::where('email', $email)->first();
 
-        // Hash::check siempre se ejecuta para evitar timing/enumeración de usuarios
-        $hash = $user?->password ?? '$2y$12$usesomesillystringforsaltuseless.abcdefghijklmnopqrstuv';
-        if (! Hash::check($request->input('password'), $hash) || ! $user) {
+        // Hash::check siempre se ejecuta con un hash bcrypt válido de 60 caracteres para evitar timing attacks
+        $hash = $user?->password ?? '$2y$12$Wa6UoHhbUFKRICuxU4Bqo.aH.5KEu.pIXzLv.iDpEuDgL5RT1usou';
+        $valid = false;
+        try {
+            $valid = Hash::check($request->input('password'), $hash);
+        } catch (\Throwable) {
+            $valid = false;
+        }
+        if (! $valid || ! $user) {
             return response()->json([
                 'error' => 'invalid_grant',
                 'message' => 'Credenciales inválidas.',
