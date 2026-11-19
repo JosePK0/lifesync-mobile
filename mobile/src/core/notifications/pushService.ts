@@ -49,22 +49,43 @@ export async function registerDevicePushToken(): Promise<string | null> {
     let token: string | null = null;
     let platform: 'android' | 'ios' | 'expo' = Platform.OS === 'ios' ? 'ios' : 'android';
 
-    try {
-      const nativeToken = await Notifications.getDevicePushTokenAsync();
-      if (typeof nativeToken.data === 'string' && nativeToken.data.length >= 16) {
-        token = nativeToken.data;
+    if (Platform.OS === 'ios') {
+      // En iOS, getDevicePushTokenAsync devuelve un token APNs hexadecimal crudo que FCM HTTP v1 rechaza.
+      // Usamos getExpoPushTokenAsync (respaldado por la llave APNs .p8 en EAS) que FcmService despacha vía Expo -> APNs.
+      try {
+        const expoToken = await Notifications.getExpoPushTokenAsync({
+          projectId: '690fac71-45b4-4520-a0bc-51d4502fb72c',
+        });
+        if (expoToken?.data) {
+          token = expoToken.data;
+          platform = 'ios';
+        }
+      } catch {
+        hasNativeFcmToken = false;
       }
-    } catch {
-      if (!isRunningInExpoGo()) {
-        const expoToken = await Notifications.getExpoPushTokenAsync();
-        token = expoToken.data;
-        platform = 'expo';
+    } else {
+      try {
+        const nativeToken = await Notifications.getDevicePushTokenAsync();
+        if (typeof nativeToken.data === 'string' && nativeToken.data.length >= 16) {
+          token = nativeToken.data;
+        }
+      } catch {
+        if (!isRunningInExpoGo()) {
+          const expoToken = await Notifications.getExpoPushTokenAsync({
+            projectId: '690fac71-45b4-4520-a0bc-51d4502fb72c',
+          });
+          token = expoToken.data;
+          platform = 'expo';
+        }
       }
     }
 
-    if (!token) return null;
+    if (!token) {
+      hasNativeFcmToken = false;
+      return null;
+    }
 
-    hasNativeFcmToken = true;
+    hasNativeFcmToken = Platform.OS === 'android';
     await secureStorage.setJson(PUSH_TOKEN_KEY, token);
     await api.post('/devices/token', { token, platform });
     return token;
