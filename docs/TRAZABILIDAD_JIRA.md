@@ -41,3 +41,8 @@
 | `LIFE-41` | Sprint 3 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar ReminderService con temporizador de verificación de medicamentos por hora (HH:MM) y programación diaria con expo-notifications |
 | `LIFE-42` | Sprint 3 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar máquina de estados finita de permisos (permissionMachine.ts y hook usePermission) para Cámara, GPS y Notificaciones |
 | `LIFE-48` | Sprint 3 | Luis Gerardo Diaz Pardenilla | @ShakerCandle694 | Implementar repositorio offline-first (RecordsRepository) con caché local en SecureStore, cola de operaciones pendientes y sincronización automática con NetInfo |
+| `LIFE-39` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Integrar exportación y diálogo nativo Share en ProfileScreen para compartir historial en JSON o CSV |
+| `LIFE-44` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Implementar botón de Emergencia SOS en HomeScreen con geolocalización expo-location y degradación gradual si el GPS está denegado |
+| `LIFE-45` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla EmergencyScreen (Ficha médica de emergencia 100% funcional sin conexión y llamada rápida a contactos SOS) |
+| `LIFE-47` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla ScanScreen con expo-camera para fotografiar recetas médicas y degradación gradual a galería con expo-image-picker |
+| `LIFE-49` | Sprint 3 | Alexis Alexander Bolio Chan | @AlexanderPlusD | Diseñar pantalla AlertsScreen con historial en tiempo real del AlertCenter y banner de estado de permisos de notificación |
